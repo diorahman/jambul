@@ -16,6 +16,6 @@
 [ModuleInit]
 public void peas_register_types(GLib.TypeModule module)
 {
-	//var objmodule = module as Peas.ObjectModule;
-	//objmodule.register_extension_type(typeof (Plugin), typeof (Core));
+	var objmodule = module as Peas.ObjectModule;
+	objmodule.register_extension_type(typeof (Plugin), typeof (Core));
 }
