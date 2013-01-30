@@ -9,7 +9,7 @@
 
  public class Core : Peas.ExtensionBase, Plugin{
  	public void init(){
- 		stdout.printf("core init");
+ 		stdout.printf("core init \n");
  	}
  }
 

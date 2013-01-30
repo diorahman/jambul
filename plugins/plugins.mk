@@ -5,5 +5,5 @@ VALAFLAGS=--pkg jambul \
 AM_CPPFLAGS = -I$(top_srcdir)/include
 LIBADD = $(JAMBUL_LIBS)
 CFLAGS += $(JAMBUL_CFLAGS)
-LDFLAGS += -module -avoid-version
+LDFLAGS += -module -avoid-version -shared
 EXTRA_DIST = $(plugin_DATA)

@@ -9,6 +9,11 @@ using GLib;
 
 namespace Jambul{
 	int main(string[] args){
+
+		Plugins.init();
+		Plugins.load("core");
+		Plugins.unload("core");
+		
 		return 0;
 	}
 }
